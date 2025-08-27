@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI-Powered Customer Support & Complaint Management System (Frontend)
 
 A React frontend demo for AI-powered customer support and complaint management with Telebirr payment integration mock.  
@@ -23,3 +24,7 @@ This project demonstrates your skills in building interactive UI, handling forms
 
 
 
+=======
+# ai-support-frontend
+AI-Powered Customer Support &amp; Complaint Management System (Frontend) with Telebirr integration
+>>>>>>> d1847b6ea82bb1af1d53a69d8097ca1da4856d95
