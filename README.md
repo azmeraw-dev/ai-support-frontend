@@ -35,7 +35,7 @@ A web application that allows users to **chat with an AI assistant**, **submit c
 - **Frontend:** React, Tailwind CSS, JavaScript (ES6+), HTML5, CSS3  
 - **Backend (planned):** Node.js, Express.js  
 - **Database (planned):** MongoDB / MySQL  
-- **Optional Integrations:** Telebirr payment API, AI/chatbot engine  
+- **Integrations:** Telebirr payment API, AI/chatbot engine  
 
 **Current Status:**
 
