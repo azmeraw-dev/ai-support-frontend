@@ -1,0 +1,216 @@
+/* Root Variables */
+:root {
+  --primary-color: #004080;   
+  --secondary-color: #F68B1F; 
+  --light-bg: #f4f6f8;
+  --white: #ffffff;
+  --text-color: #222;
+  --border-radius: 8px;
+  --box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+}
+
+/* Reset basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* App layout */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: var(--light-bg);
+}
+
+/* Navbar */
+nav {
+  height: 60px;
+  background: var(--primary-color);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav button {
+  background: var(--secondary-color);
+  border: none;
+  padding: 5px 12px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Main layout */
+.main-layout {
+  display: flex;
+  flex: 1;
+  height: calc(100vh - 60px);
+}
+
+/* Sidebar */
+.main-layout > div:first-child {
+  width: 220px;
+  background: #f0f0f0;
+  padding: 15px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+  height: 100%;
+}
+
+.main-layout ul {
+  list-style: none;
+}
+
+.main-layout li {
+  margin-bottom: 12px;
+}
+
+.main-layout a {
+  color: var(--text-color);
+  text-decoration: none;
+  display: block;
+  padding: 6px 10px;
+  border-radius: var(--border-radius);
+  transition: 0.2s;
+}
+
+.main-layout a:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+/* Page content */
+.page-content {
+  flex: 1;
+  padding: 20px;
+  margin: 15px;
+  background: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  overflow-y: auto;
+}
+
+/* Headings */
+.page-content h1 {
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th, table td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+form input, form textarea, form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+  font-size: 14px;
+}
+
+form button {
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: bold;
+  width: 150px;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background: var(--secondary-color);
+}
+
+/* Chat Window */
+.main-layout > div:last-child {
+  width: 300px;
+  background: var(--white);
+  border-left: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.05);
+  height: 100%;
+}
+
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-window p {
+  padding: 6px 8px;
+  margin-bottom: 6px;
+  background: #f0f0f0;
+  border-radius: var(--border-radius);
+}
+
+.chat-window .user {
+  background: var(--primary-color);
+  color: #fff;
+  align-self: flex-end;
+}
+
+/* Login form */
+.login-form {
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  background: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.login-form input {
+  width: 100%;
+}
+
+
+  
+
