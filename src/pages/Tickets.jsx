@@ -1,59 +1,17 @@
-import React, { useContext } from "react";
-import { ComplaintContext } from "../context/ComplaintContext";
-import { AuthContext } from "../context/AuthContext";
-import { useNavigate } from "react-router-dom";
+import React from "react";
 
-function Tickets() {
-  const { complaints, updateComplaintStatus } = useContext(ComplaintContext);
-  const { isLoggedIn } = useContext(AuthContext);
-  const navigate = useNavigate();
-
-  if (!isLoggedIn) {
-    navigate("/login");
-    return null;
-  }
-
+const Tickets = () => {
   return (
-    <div>
-      <h1>Tickets / Complaints</h1>
-      {complaints.length === 0 ? (
-        <p>No complaints submitted yet.</p>
-      ) : (
-        <table>
-          <thead>
-            <tr>
-              <th>ID</th>
-              <th>Customer</th>
-              <th>Phone</th>
-              <th>Service</th>
-              <th>Complaint</th>
-              <th>Status</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody>
-            {complaints.map(c => (
-              <tr key={c.id}>
-                <td>{c.id}</td>
-                <td>{c.name}</td>
-                <td>{c.phone}</td>
-                <td>{c.service}</td>
-                <td>{c.complaint}</td>
-                <td>{c.status}</td>
-                <td>
-                  <select value={c.status} onChange={e => updateComplaintStatus(c.id, e.target.value)}>
-                    <option value="Open">Open</option>
-                    <option value="Pending">Pending</option>
-                    <option value="Resolved">Resolved</option>
-                  </select>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      )}
+    <div style={{ padding: "2rem" }}>
+      <h2 style={{ color: "#007a33" }}>Tickets Management</h2>
+      <p style={{ marginTop: "1rem" }}>
+        Manage and monitor customer tickets here. This section will allow you to <strong>view, assign, and resolve tickets</strong> efficiently.
+      </p>
+      <div style={{ marginTop: "2rem", padding: "1rem", background: "#FFCD00", borderRadius: 8 }}>
+        <p style={{ color: "#007a33", fontWeight: "bold" }}>No tickets to display (coming soon...)</p>
+      </div>
     </div>
   );
-}
+};
 
 export default Tickets;

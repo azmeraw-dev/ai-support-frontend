@@ -1,19 +1,16 @@
-import React, { useContext } from "react";
-import { AuthContext } from "../context/AuthContext";
-
-function Navbar() {
-  const { isLoggedIn, logout } = useContext(AuthContext);
-
+import React from "react";
+const Navbar = () => {
   return (
-    <nav>
-      <span>Ethio Telecom AI Support</span>
-      {isLoggedIn ? (
-        <button onClick={logout}>Logout</button>
-      ) : (
-        <span>Not logged in</span>
-      )}
-    </nav>
+    <div style={{
+      background: "#007a33",
+      color: "#FFCD00",
+      padding: "1rem 2rem",
+      fontWeight: "bold",
+      fontSize: "1.2rem"
+    }}>
+      AI-Powered Customer Support
+    </div>
   );
-}
+};
 
 export default Navbar;

@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Sidebar.css";
 
-function Sidebar() {
+const Sidebar = () => {
   return (
     <div className="sidebar">
       <ul>
@@ -10,9 +11,11 @@ function Sidebar() {
         <li><Link to="/tickets">Tickets</Link></li>
         <li><Link to="/reports">Reports</Link></li>
         <li><Link to="/complaint">Submit Complaint</Link></li>
+        <li><Link to="/complaints">View Complaints</Link></li>
       </ul>
     </div>
   );
-}
+};
 
 export default Sidebar;
+
