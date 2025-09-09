@@ -1,49 +1,74 @@
-# AI-Powered Customer Support & Complaint Management System
+# AI-Powered Customer Support & Complaint Management System (with Telebirr Integration)
 
-A web application that allows users to **chat with an AI assistant**, **submit complaints**, and use **Telebirr for payments**. The frontend is built with **React** and **Tailwind CSS** to provide a modern, responsive interface.
-
----
-
-## 🚀 Completed Features (Frontend)
-
-- **Landing Page** – Clean navigation to Chat, Submit Complaint, and Admin Dashboard  
-- **Chat UI** – Mock AI chatbot interface with conversation bubbles  
-- **Complaint Form** – Collects user name, phone, service type, and complaint description  
-- **Telebirr Mock Button** – Simulates payment process for complaints  
+A **full-stack project (in progress)** that aims to build an **AI-powered customer support and complaint management system** for Ethio Telecom.  
+Currently, the **frontend** is developed in React with Tailwind CSS, while the **backend** will be added later for database, authentication, and AI service integration.  
 
 ---
 
-## ⏳ In Progress
+## 🎯 Project Goal
+To provide a **modern, AI-enhanced support system** where customers can:  
+- Submit complaints regarding Ethio Telecom services  
+- Chat with an **AI-powered assistant**  
+- Simulate **Telebirr payment integration**  
+- Enable staff/admins to manage complaints and generate reports  
 
-- **Admin Dashboard** – Display submitted complaints with status management  
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- **React** – Component-based UI framework  
+- **Tailwind CSS** – Utility-first CSS styling  
+- **React Router** – Page navigation  
+- **JavaScript (ES6+)**  
+
+### Backend (Planned)
+- **Node.js + Express** – RESTful APIs  
+- **MongoDB** (or PostgreSQL) – Database for customers, tickets, complaints  
+- **JWT Authentication** – Secure login and role-based access  
+- **AI/LLM Integration** – For automated responses and suggestions  
 
 ---
 
-## 📖 About the Project (Full Overview)
+## 🚀 Features
 
-**AI-Powered Customer Support & Complaint Management System** is designed as a full-stack solution to provide efficient customer support and complaint handling.
+### ✅ Completed (Frontend)
+- **Navbar + Sidebar Layout** – Clean navigation across pages  
+- **Dashboard Page** – Welcome and overview  
+- **Complaint Submission Form** – Collects user info + complaint details  
+- **AI Chat Window (Mock)** – Placeholder chatbot interface  
+- **Telebirr Mock Button** – Simulated payment step  
 
-**Key Features (Full Project):**
+### 🛠 In Progress
+- **Admin Dashboard** – Manage and update complaint statuses  
+- **Customer Profiles** – Store and view user details  
 
-- Users can chat with an AI-powered assistant  
-- Submit complaints for Internet, Mobile, or Telebirr services  
-- Admin dashboard allows staff to review complaints and manage customer interactions  
-- Telebirr payment integration (planned)  
-
-**Technologies & Languages Used:**
-
-- **Frontend:** React, Tailwind CSS, JavaScript (ES6+), HTML5, CSS3  
-- **Backend (planned):** Node.js, Express.js  
-- **Database (planned):** MongoDB / MySQL  
-- **Integrations:** Telebirr payment API, AI/chatbot engine  
-
-**Current Status:**
-
-- Frontend development is fully functional with a clean UI and responsive design but not completed 
-- Backend, database, and real AI/Telebirr integration are planned for future expansion  
-- Project is modular, maintainable, and ready to evolve into a full-stack application  
+### 🔮 Planned (Backend & Full-Stack)
+- **Authentication** – Staff and customer login system  
+- **Complaint Tracking** – Database integration for tickets  
+- **AI-Powered Responses** – Integration with NLP models for automated replies  
+- **Reports & Analytics** – Summaries of complaints and resolutions  
 
 ---
+
+## 🌍 Deployment
+- **Frontend** → GitHub Pages ([Demo Link](https://azmeraw-dev.github.io/ai-support-frontend))  
+
+---
+
+## 📌 Roadmap
+- [x] Build React frontend with complaint form and chatbot mock  
+- [x] Add Telebirr mock integration  
+- [ ] Develop backend APIs with Node.js & MongoDB  
+- [ ] Connect frontend to backend  
+- [ ] Add authentication and role-based access  
+- [ ] AI chatbot integration for smart responses  
+- [ ] Deploy full-stack system  
+
+
+
+
+
 
 
 
