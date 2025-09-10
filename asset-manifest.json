@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ai-support-frontend/static/css/main.be4e7765.css",
+    "main.js": "/ai-support-frontend/static/js/main.9bafd2b1.js",
+    "index.html": "/ai-support-frontend/index.html",
+    "main.be4e7765.css.map": "/ai-support-frontend/static/css/main.be4e7765.css.map",
+    "main.9bafd2b1.js.map": "/ai-support-frontend/static/js/main.9bafd2b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be4e7765.css",
+    "static/js/main.9bafd2b1.js"
+  ]
+}
