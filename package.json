@@ -2,10 +2,12 @@
   "name": "ai-support-frontend",
   "version": "1.0.0",
   "private": true,
-  "description": "AI-Powered Customer Support & Complaint Management System (Frontend) with React",
+  "homepage": "https://azmeraw-dev.github.io/ai-support-frontend",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -16,17 +18,8 @@
     "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1"
   },
-  "devDependencies": {},
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
+
