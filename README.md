@@ -52,7 +52,7 @@ To provide a **modern, AI-enhanced support system** where customers can:
 ---
 
 ## 🌍 Deployment
-- **Frontend** → GitHub Pages ([Demo Link](https://azmeraw-dev.github.io/ai-support-frontend))  
+- **Frontend** → GitHub Pages ([Demo Link](https://ai-support-frontend.vercel.app/))  
 
 ---
 
