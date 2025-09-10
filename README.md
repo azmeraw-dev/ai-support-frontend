@@ -52,7 +52,9 @@ To provide a **modern, AI-enhanced support system** where customers can:
 ---
 
 ## 🌍 Deployment
-- **Frontend** → GitHub Pages ([Demo Link](https://ai-support-frontend.vercel.app/))  
+Check out the live application deployed on **Vercel**:  
+[https://ai-support-frontend.vercel.app](https://ai-support-frontend.vercel.app)
+
 
 ---
 
