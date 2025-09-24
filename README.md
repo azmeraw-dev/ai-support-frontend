@@ -59,13 +59,15 @@ Check out the live application deployed on **Vercel**:
 ---
 
 ## 📌 Roadmap
-- **Build React frontend with complaint form and chatbot mock  
-- **Add Telebirr mock integration  
-- **Develop backend APIs with Node.js & MongoDB  
-- **Connect frontend to backend  
-- **Add authentication and role-based access  
-- **AI chatbot integration for smart responses  
-- **Deploy full-stack system  
+
+- [x] Build **React frontend** with complaint form and chatbot mock  
+- [x] Add **Telebirr** mock integration  
+- [ ] Develop **backend APIs** with **Node.js** & **MongoDB**  
+- [ ] Connect **frontend** to **backend**  
+- [ ] Add **authentication** and **role-based access**  
+- [ ] Integrate **AI chatbot** for smart responses  
+- [ ] **Deploy** full-stack system
+
 
 
 
