@@ -4,8 +4,8 @@ export const ComplaintContext = createContext();
 
 export const ComplaintProvider = ({ children }) => {
   const [complaints, setComplaints] = useState([
-    { id: 1, name: "John Doe", phone: "0912345678", complaint: "Internet not working", status: "Open" },
-    { id: 2, name: "Jane Smith", phone: "0923456789", complaint: "Billing issue", status: "Open" },
+    { id: 1, name: "Azmeraw Bitew", phone: "0911522796", complaint: "Internet not working", status: "Open" },
+    { id: 2, name: "habtamu gizaw", phone: "0923456789", complaint: "Billing issue", status: "Open" },
   ]);
 
   const addComplaint = (c) => {
