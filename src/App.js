@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import ChatWindow from "./components/ChatWindow";
 
-// Import pages
 import Dashboard from "./pages/Dashboard";
 import Customers from "./pages/Customers";
 import Tickets from "./pages/Tickets";
