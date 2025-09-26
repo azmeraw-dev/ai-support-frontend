@@ -5,6 +5,14 @@ Currently, the **frontend** is developed in React with Tailwind CSS, while the *
 
 ---
 
+## 🌍 Deployment
+Check out the live application deployed on **Vercel**:  
+[https://ai-support-frontend.vercel.app](https://ai-support-frontend.vercel.app)
+
+
+---
+
+
 ## 🎯 Project Goal
 To provide a **modern, AI-enhanced support system** where customers can:  
 - Submit complaints regarding Ethio Telecom services  
@@ -51,12 +59,6 @@ To provide a **modern, AI-enhanced support system** where customers can:
 
 ---
 
-## 🌍 Deployment
-Check out the live application deployed on **Vercel**:  
-[https://ai-support-frontend.vercel.app](https://ai-support-frontend.vercel.app)
-
-
----
 
 ## 📌 Roadmap
 
