@@ -45,7 +45,6 @@ To provide a **modern, AI-enhanced support system** where customers can:
 - **Dashboard Page** – Welcome and overview  
 - **Complaint Submission Form** – Collects user info + complaint details  
 - **AI Chat Window (Mock)** – Placeholder chatbot interface  
-- **Telebirr Mock Button** – Simulated payment step  
 
 ### 🛠 In Progress
 - **Admin Dashboard** – Manage and update complaint statuses  
